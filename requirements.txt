@@ -1,0 +1,7 @@
+allure-pytest==2.13.5
+Faker==37.1.0
+httpx==0.28.1
+jsonschema==4.23.0
+pydantic==2.11.1
+pydantic-settings==2.8.1
+pytest==8.3.5
