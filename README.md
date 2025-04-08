@@ -32,7 +32,7 @@ technologies and methodologies used in this project include:
 - [HTTPX event hooks](./clients/event_hooks.py) – Enables logging and additional features without modifying the original
   API client code.
 
-This project targets[SampleAPIs](https://sampleapis.com/), which provides various fake API datasets for testing.
+This project targets [SampleAPIs](https://sampleapis.com/), which provides various fake API datasets for testing.
 Specifically, this project works with the [FakeBank API](https://sampleapis.com/api-list/fakebank) and uses its
 endpoints for testing purposes.
 
