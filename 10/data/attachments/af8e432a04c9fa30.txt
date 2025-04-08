@@ -1,0 +1,10 @@
+INFO     HTTP_CLIENT:event_hooks.py:14 Make POST request to https://api.sampleapis.com/fakebank/accounts
+INFO     HTTP_CLIENT:event_hooks.py:23 Got response 201 Created from https://api.sampleapis.com/fakebank/accounts
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to 201
+INFO     OPERATIONS_ASSERTIONS:operations.py:15 Check create operation
+INFO     BASE_ASSERTIONS:base.py:23 Check that "debit" equals to 61.917
+INFO     BASE_ASSERTIONS:base.py:23 Check that "credit" equals to 83.914288353
+INFO     BASE_ASSERTIONS:base.py:23 Check that "category" equals to fuel
+INFO     BASE_ASSERTIONS:base.py:23 Check that "description" equals to Join scientist investment seat.
+INFO     BASE_ASSERTIONS:base.py:23 Check that "transaction_date" equals to 2025-04-07
+INFO     SCHEMA_ASSERTIONS:schema.py:14 Validating JSON schema
