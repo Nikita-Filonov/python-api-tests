@@ -46,7 +46,7 @@ Ensure that you have the following installed on your system:
 - pip (Python package manager)
 - Git
 
-## Installation
+### Installation
 
 Clone the repository and navigate to the project directory:
 
@@ -99,7 +99,7 @@ workflow is configured to:
 
 - Run tests on every push and pull request to the main branch.
 - Generate and upload Allure reports as artifacts.
-- Publish the[ Allure report](https://allurereport.org/) to [GitHub Pages](https://pages.github.com/) for easy access.
+- Publish the [Allure report](https://allurereport.org/) to [GitHub Pages](https://pages.github.com/) for easy access.
 
 Ensure that the [gh-pages](https://github.com/Nikita-Filonov/python-api-tests/tree/gh-pages) branch exists in your
 repository for successful deployment. If it does not exist, create it manually:
