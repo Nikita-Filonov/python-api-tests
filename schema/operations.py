@@ -18,15 +18,15 @@ class CreateOperationSchema(BaseModel):
 class UpdateOperationSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    debit: float | None = Field(default_factory=fake.money)
-    credit: float | None = Field(default_factory=fake.money)
+    debit: float | str | None = Field(default_factory=fake.money)
+    credit: float | str | None = Field(default_factory=fake.money)
     category: str | None = Field(default_factory=fake.category)
     description: str | None = Field(default_factory=fake.sentence)
     transaction_date: date | None = Field(alias="transactionDate", default_factory=fake.date)
 
 
 class OperationSchema(CreateOperationSchema):
-    id: int
+    id: int | str
 
 
 class OperationsSchema(RootModel):
