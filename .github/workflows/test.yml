@@ -38,6 +38,7 @@ jobs:
           path: allure-results
 
   publish-report:
+    if: always()
     needs: [ run-tests ]
     runs-on: ubuntu-latest
 
